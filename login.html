@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script> 
 <a style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" id="Setmore_button_iframe"  href="https://booking.setmore.com/scheduleappointment/36a37a49-5585-464d-a782-9ebbcc59a905"><img border="none" src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Calendar/Setmore-Book-Now.png" alt="Book an appointment with FLTC"></a>
 <!-- END SETMORE BUTTON -->
-<title>Forensic Leaders Training Center&#8482; | XXXXXXXXXXXXXXXXXXXXXXXXXX</title>
+<title>Forensic Leaders Training Center&#8482; | Member Login</title>
 <!-- Bootstrap -->
 </head><body class="uk-background-center-center">
 <!-- Google Tag Manager (noscript) -->
@@ -45,7 +45,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
               <li> <a href="who-we-are.html"><span class="hover-underline-animation">Meet the Team</span> </a> </li>
 			  <li> <a href="https://fltc.mcjobboard.net/jobs"><span class="hover-underline-animation">Job Board</span> </a></li>			  
               <li class="uk-nav-header">Membership</li>
-              <li> <a href="https://members.forensicleaders.org/center" target="_blank"><span class="hover-underline-animation">Member Portal</span> </a> </li>
+              <li> <a href="login.html"><span class="hover-underline-animation">Member Login</span> </a> </li>
               <li> <a href="https://forensicleaders.percipio.com/" target="_blank"><span class="hover-underline-animation">Gold Program Login</span> </a> </li>
               <li> <a href="https://members.forensicleaders.org/join-us" target="_blank"><span class="hover-underline-animation">Join for Free</span> </a> </li>
               <li class="uk-nav-header">Coaching/Strategy</li>
@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
             <p><a class="btn btn-success btn-lg" href="courses.html" role="button">ONLINE COURSES</a> </p>
           </div>
           <div class="col-auto">
-            <p><a class="btn btn-primary btn-lg" href="https://members.forensicleaders.org/center" target="_blank" role="button">MEMBER PORTAL</a> </p>
+            <p><a class="btn btn-primary btn-lg" href="login.html" role="button">MEMBER LOGIN</a> </p>
           </div>
           <div class="col-auto">
             <p><a class="btn btn-gold btn-lg" href="https://forensicleaders.percipio.com" target="_blank" role="button">GOLD PROGRAM LOGIN</a> </p>
@@ -142,18 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 <div class="container">
   <div class="row">
     <div class="text-center col-md-8 col-12 col-xl-12">
-      <h2>Login Widget</h2>
-  <form id="loginForm">
-    <label for="username">Email:</label>
-    <input type="text" id="email" name="email" required><br><br>
-    
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-    
-    <input type="submit" value="Login">
-  </form>
-		
-		
+      <iframe width="100%" height="500" frameborder="no" src="https://members.forensicleaders.org/widget/Sys/Profile" onload='tryToEnableWACookies("https://members.forensicleaders.org");' ></iframe><br/><font style="color:#ccc;font-size:9px;font-family: Verdana, Arial, Helvetica, sans-serif;">Powered by Wild Apricot <a style="color:#ccc" href="http://www.wildapricot.com/features" target="_blank">Membership Software</a></font><script  type="text/javascript" language="javascript" src="https://members.forensicleaders.org/Common/EnableCookies.js" ></script>		
     </div>
   </div>
 </div>
@@ -290,39 +279,5 @@ function topFunction() {
 <a href="https://www.livechat.com/chat-with/15426366/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
 </noscript>
 <!-- End of LiveChat code -->
-<!-- Login Script -->
-	<script>
-    $(document).ready(function() {
-      // Handle form submission
-      $("#loginForm").submit(function(event) {
-        event.preventDefault(); // Prevent form from submitting
-        
-        // Get the form data
-        var username = $("#email").val();
-        var password = $("#password").val();
-        
-        // Make the API call
-        $.ajax({
-          url: "https://members.forensicleaders.org/Sys/Login",
-          method: "POST",
-          data: {
-            email: email,
-            password: password
-          },
-          success: function(response) {
-            // Handle successful login
-            console.log("Login successful:", response);
-            // You can redirect the user or perform any other actions here
-          },
-          error: function(xhr, status, error) {
-            // Handle login error
-            console.error("Login error:", error);
-            // You can show an error message or perform any other actions here
-          }
-        });
-      });
-    });
-  </script>
-	<!-- End Login Script -->
 </body>
 </html>
