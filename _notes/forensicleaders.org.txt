@@ -1,0 +1,88 @@
+;;
+;; Domain:     forensicleaders.org.
+;; Exported:   2023-05-22 15:56:24
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+forensicleaders.org	3600	IN	SOA	rodney.ns.cloudflare.com dns.cloudflare.com 2043643758 10000 2400 604800 3600
+
+;; NS Records
+forensicleaders.org.	86400	IN	NS	rodney.ns.cloudflare.com.
+forensicleaders.org.	86400	IN	NS	sonia.ns.cloudflare.com.
+
+;; A Records
+fallback.forensicleaders.org.	1	IN	A	185.199.111.153
+localhost.forensicleaders.org.	1	IN	A	127.0.0.1
+members.forensicleaders.org.	1	IN	A	34.226.77.200
+
+;; CAA Records
+members.forensicleaders.org.	1	IN	CAA	0 issue "letsencrypt.org"
+
+;; CNAME Records
+calendar.forensicleaders.org.	1	IN	CNAME	ghs.googlehosted.com.
+default._domainkey.members.forensicleaders.org.	1	IN	CNAME	dkim.wildapricot.org.
+_dmarc.sl.forensicleaders.org.	1	IN	CNAME	_dmarc.m2.sendlayer.net.
+drive.forensicleaders.org.	1	IN	CNAME	ghs.googlehosted.com.
+em5342.forensicleaders.org.	1	IN	CNAME	u4860288.wl039.sendgrid.net.
+fera2._domainkey.forensicleaders.org.	1	IN	CNAME	fera2.domainkey.u4860288.wl039.sendgrid.net.
+fera._domainkey.forensicleaders.org.	1	IN	CNAME	fera.domainkey.u4860288.wl039.sendgrid.net.
+forensicleaders.org.	1	IN	CNAME	fltc.pages.dev.
+groups.forensicleaders.org.	1	IN	CNAME	ghs.googlehosted.com.
+hd-2122978527.forensicleaders.org.	3600	IN	CNAME	helpdesk.com.
+k2._domainkey.forensicleaders.org.	1	IN	CNAME	dkim2.mcsv.net.
+k3._domainkey.forensicleaders.org.	1	IN	CNAME	dkim3.mcsv.net.
+pm-bounces.forensicleaders.org.	3600	IN	CNAME	pm.mtasv.net.
+sites.forensicleaders.org.	1	IN	CNAME	ghs.googlehosted.com.
+sl._domainkey.forensicleaders.org.	1	IN	CNAME	sl._domainkey.m2.sendlayer.net.
+sl.forensicleaders.org.	1	IN	CNAME	sl.m2.sendlayer.net.
+track.sl.forensicleaders.org.	1	IN	CNAME	track.m2.sendlayer.net.
+webmail.forensicleaders.org.	1	IN	CNAME	ghs.googlehosted.com.
+www.forensicleaders.org.	1	IN	CNAME	fltc.pages.dev.
+www.members.forensicleaders.org.	1	IN	CNAME	sites.wildapricot.org.
+
+;; MX Records
+forensicleaders.org.	3600	IN	MX	1 smtp.google.com.
+
+;; TXT Records
+20230512021805pm._domainkey.forensicleaders.org.	3600	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiyab89W2FrWa8JpMTKbiNLi0mqbVvhXnOI4aR3nP7RE9zQ57I7uUj/YyothqMT5Je9iyMyYI4zesMnJTTp0KJaRZ/1VrItKG3jm//NC/JsQiLtWrC4jYCVhzpJV9F5e2vazID3RxadtiNntW2nJriGYzw4ZJarU29viIATgLoRwIDAQAB"
+default._domainkey.forensicleaders.org.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwIGGkQVBE5JHW5teFlFxMPRsi1Zj2A5apmpJDId5SmMJaoQqWPft7oPZUdW53N2L3YCG3IrXRRz1bJJpkFxD5YdB0qSVrNwhVMemfJeaXt+bU92Gqjs1VrojdKY8F0sYGX1+K64oshRBSQv2+UBHH8ILbA8En2D9ZcnkaO6paaXq9q8A4SJbMtR63Gp5lG5SunKYkv/t6jHQ/L7chslRA89iKLXcXKCVSN95H4SdnhpoGMj+bOm42OVbY89PhIxtWFSMgyXVdluH2LWCLAiKh92f4Wg2mZhb5BzZ9b/QPSNXYWOOkBHkBk3cVVvoqdpKjmuJ00R5JM++jkE5u0aKQwIDAQAB;"
+_dmarc.forensicleaders.org.	1	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:b37c300ddb9443fba1cb8aad3aada5e8@dmarc-reports.cloudflare.net"
+_dmarc.members.forensicleaders.org.	1	IN	TXT	"v=DMARC1; p=quarantine;"
+forensicleaders.org.	1	IN	TXT	"v=spf1 include:_spfcf1.forensicleaders.org include:_spfcf2.forensicleaders.org include:_spfcf3.forensicleaders.org include:_spfcf4.forensicleaders.org include:_spfcf5.forensicleaders.org include:_spfcf6.forensicleaders.org include:_spfcf7.forensicleaders.org include:_spfcf8.forensicleaders.org include:_spfcf9.forensicleaders.org include:_spf.google.com include:spf.mandrillapp.com ~all"
+forensicleaders.org.	1	IN	TXT	"google-site-verification=gf0MHQgLAnenG_7jOvEE6oGI52rOzl5k8amCwAT7pi0"
+_github-challenge-forensic-leaders-training-center-org.forensicleaders.org.	1	IN	TXT	"158103ebd0"
+_github-challenge-forensic-leaders-training-center-org.www.forensicleaders.org.	1	IN	TXT	"c36c610535"
+_github-pages-challenge-forensic-leaders-training-center.forensicleaders.org.	1	IN	TXT	"9403feebf1be3e5299621c145cbd65"
+google._domainkey.forensicleaders.org.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlIAbIaW11Iy+6OSzrBbFR0M/frv0RxPDtTZ2oIGiFcT0+a4aqJ45XegZWmgmkQgJDvZEWD89wcPbLRjgS8Oqml9N7HqMzv76kqrn/d6kbXfidYQ1Xl7O/If5lY4cU3eWdJXIIFSDlM4c6HgqvbApmPGbj+Hy4s4vI7WB8c3+vQEMJyVYLuag0LAC96+ruCZhLzphDFyioQtOZzsNhsDXhVvpKoHNAgHSsyWrzO1xOYqRYveCCa6JlYpI0lGXIAAaVXq0YPW8fofDCuOOegdyTbyUKth7WcOd7s6IHgBZJp6cnLRWp8pVQ8s4YwNsCkidXNSIsoTAOcSEqR4W/KiUcQIDAQAB"
+mandrill._domainkey.forensicleaders.org.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+members.forensicleaders.org.	1	IN	TXT	"v=spf1 mx include:wildapricot.org ~all"
+_spfcf1.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/19 ip4:54.240.96.0/19 ip4:52.82.172.0/22 ip4:76.223.128.0/19 ip4:35.190.247.0/24  -all"
+_spfcf2.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:74.125.0.0/16 ip4:108.177.8.0/21 ip4:173.194.0.0/16 ip4:209.85.128.0/17 ip4:216.58.192.0/19 ip4:216.239.32.0/19 ip6:2001:4860:4000::/36 ip6:2404:6800:4000::/36  -all"
+_spfcf3.forensicleaders.org.	1	IN	TXT	"v=spf1 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ip4:172.217.0.0/19 ip4:172.217.32.0/20 ip4:172.217.128.0/19 ip4:172.217.160.0/20 ip4:172.217.192.0/19 ip4:172.253.56.0/21 ip4:172.253.112.0/20 ip4:108.177.96.0/19  -all"
+_spfcf4.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:130.211.0.0/22 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.8.0/21 ip4:157.56.232.0/21 ip4:157.56.240.0/20 ip4:207.46.198.0/25 ip4:207.46.4.128/25 ip4:157.56.24.0/25 ip4:157.55.157.128/25 ip4:157.55.61.0/24 ip4:157.55.49.0/25  -all"
+_spfcf5.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:65.55.126.0/25 ip4:65.55.113.64/26 ip4:65.55.94.0/25 ip4:65.55.78.128/25 ip4:111.221.112.0/21 ip4:207.46.58.128/25 ip4:111.221.69.128/25 ip4:111.221.66.0/25 ip4:111.221.23.128/25 ip4:70.37.151.128/25 ip4:157.56.248.0/21  -all"
+_spfcf6.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:157.55.225.0/25 ip4:157.55.11.0/25 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/14 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/50 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52  -all"
+_spfcf7.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:157.55.1.128/26 ip4:157.55.2.0/25 ip4:65.54.190.0/24 ip4:65.54.51.64/26 ip4:65.54.61.64/26 ip4:65.55.111.0/24 ip4:65.55.116.0/25 ip4:65.55.34.0/24 ip4:65.55.90.0/24 ip4:65.54.241.0/24 ip4:207.46.117.0/24 ip4:207.68.169.173/30  -all"
+_spfcf8.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:207.46.132.128/27 ip4:207.68.176.96/27 ip4:65.55.238.129/26 ip4:65.55.238.129/26 ip4:207.46.116.128/29 ip4:65.55.178.128/27 ip4:213.199.161.128/27 ip4:65.55.33.64/28 ip4:65.54.121.120/29 ip4:65.55.81.48/28 ip4:65.55.234.192/26  -all"
+_spfcf9.forensicleaders.org.	1	IN	TXT	"v=spf1 ip4:65.55.52.224/27 ip4:94.245.112.10/31 ip4:94.245.112.0/27 ip4:111.221.26.0/27 ip4:207.46.50.192/26 ip4:207.46.50.224 ip4:157.55.9.128/25  -all"
+t2shawdalw.sl.forensicleaders.org.	1	IN	TXT	"VmxOSSsxTC9MK1MzZzk2U1VVN1cxL1BkTU85YWdmWEpRZ2tRWnJneXAzST0="
