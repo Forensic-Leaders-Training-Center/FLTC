@@ -56,6 +56,7 @@ body {
   text-align: left;
   background-color: #fff;
   background-image: url("https://www.forensicleaders.org/images/bg-light.webp");
+  background-size: cover;
   background-attachment: fixed;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4402,7 +4403,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-image: url("https://www.forensicleaders.org/images/fingerprint.webp");
+  background-image: url("https://imagedelivery.net/X7Zx0_LYqqniiMBhW2W3Dg/52879f3e-3e6a-4460-2634-5437a9c8c000/public");
   background-size: cover;
   border-radius: 0.5rem;
 }
@@ -4419,7 +4420,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .roster {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-image: url("https://www.forensicleaders.org/images/mountain-bg.webp");
+  background-image: url("https://imagedelivery.net/X7Zx0_LYqqniiMBhW2W3Dg/dfe2fe35-2e31-4155-4eee-cd86f9381900/public");
   background-size: cover;
   border-radius: 0.5rem;
 }
@@ -4443,7 +4444,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .journey {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-image: url("https://www.forensicleaders.org/images/journey.webp");
+  background-image: url("https://imagedelivery.net/X7Zx0_LYqqniiMBhW2W3Dg/db2d7040-d338-4c5c-4614-09089616cb00/public");
   background-size: cover;
   border-radius: 0.5rem;
 }
