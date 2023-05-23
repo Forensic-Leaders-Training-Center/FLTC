@@ -55,7 +55,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  background-image: url("https://imagedelivery.net/X7Zx0_LYqqniiMBhW2W3Dg/e7f06b9a-d296-47ac-e401-f9967ae7d900/public");
+  background-image: url("https://www.forensicleaders.org/images/bg-light.webp");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4432,7 +4432,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .blue-hex {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-image: url("https://imagedelivery.net/X7Zx0_LYqqniiMBhW2W3Dg/a4f9e70b-2140-41de-dcdc-6be106ab0200/public");
+  background-image: url("https://www.forensicleaders.org/images/blue-hex.webp");
   background-size: cover;
   border-radius: 0.5rem;
 }
