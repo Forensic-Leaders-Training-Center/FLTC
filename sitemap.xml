@@ -11,139 +11,91 @@
   <url>
     <loc>https://www.forensicleaders.org/index.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.03</priority>
+    <priority>0.02</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/about.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.82</priority>
+    <priority>0.6</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/who-we-are.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.68</priority>
+    <priority>0.5</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/join-us.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.82</priority>
+    <priority>1</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/login.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.82</priority>
+    <priority>0.6</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/directory.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.42</priority>
+    <priority>0.6</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/courses.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>1</priority>
+    <priority>0.44</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/free-guide.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.42</priority>
+    <priority>0.31</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/how-do-i.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.82</priority>
+    <priority>0.6</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/policies.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.82</priority>
+    <priority>0.6</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/leadership-development.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.47</priority>
+    <priority>0.35</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/privacy-policy.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.42</priority>
+    <priority>0.31</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/emotional-intelligence.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.05</priority>
+    <priority>0.04</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/cultural-intelligence.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.05</priority>
+    <priority>0.04</priority>
     <changefreq>hourly</changefreq>
   </url>
   <url>
     <loc>https://www.forensicleaders.org/strategy.html</loc>
     <lastmod>2023-05-22</lastmod>
-    <priority>0.05</priority>
+    <priority>0.04</priority>
     <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature1.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature2.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature3.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature4.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature5.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature6.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature7.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.forensicleaders.org/images/feature8.webp</loc>
-    <lastmod>2023-05-11</lastmod>
-    <priority>0.05</priority>
-    <changefreq>weekly</changefreq>
   </url>
 </urlset>
